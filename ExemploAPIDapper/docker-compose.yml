@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  ExemploAPIDapper:
+    image: ExemploAPIDapper
+    build:
+      context: ./ExemploAPIDapper
+      dockerfile: Dockerfile
